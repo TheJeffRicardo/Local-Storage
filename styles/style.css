@@ -1,0 +1,47 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Form and Body */
+form, body {
+    text-align: center;
+}
+
+/* Layout */
+form {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    margin: auto;
+    width: 400px;
+    padding: 75px;
+    background-color: rgba(128, 128, 128, 0.248);
+    border-radius: 20px;
+}
+input{
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(128, 128, 128, 0.293);
+    height: 30px;
+
+}
+#submit {
+    width: 100px;
+    margin: auto;
+    background-color: yellowgreen;
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+}
+#display {
+    width: 100px;
+    margin: auto;
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+}
